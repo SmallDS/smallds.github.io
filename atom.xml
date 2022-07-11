@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://smallds.github.io</id>
     <title>小沙漠Blog</title>
-    <updated>2022-07-11T09:07:48.360Z</updated>
+    <updated>2022-07-11T09:08:17.236Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://smallds.github.io"/>
     <link rel="self" href="https://smallds.github.io/atom.xml"/>
@@ -10,6 +10,60 @@
     <logo>https://smallds.github.io/images/avatar.png</logo>
     <icon>https://smallds.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 小沙漠Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[加入私有CSGO服务器]]></title>
+        <id>https://smallds.github.io/jia-ru-si-you-csgo-fu-wu-qi/</id>
+        <link href="https://smallds.github.io/jia-ru-si-you-csgo-fu-wu-qi/">
+        </link>
+        <updated>2022-07-11T09:07:57.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="加入私有csgo服务器"><strong>加入私有CSGO服务器</strong></h1>
+<h2 id="国际服steam用户点我加入"><a href="steam://connect/121.43.101.250:27015">国际服Steam用户点我加入</a></h2>
+<hr>
+<h3 id="服务器基本信息">服务器基本信息</h3>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>信息</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>运营商</td>
+<td>阿里云</td>
+</tr>
+<tr>
+<td>地区</td>
+<td>China-杭州</td>
+</tr>
+<tr>
+<td>刷新率</td>
+<td>128tick</td>
+</tr>
+<tr>
+<td>资源服务器</td>
+<td>http://121.43.101.250:28039/csgo</td>
+</tr>
+<tr>
+<td>服务器1V1地图</td>
+<td>aim_pistol.bsp</td>
+</tr>
+<tr>
+<td>服务器地址</td>
+<td>121.43.101.250:27015</td>
+</tr>
+<tr>
+<td>服务器管理员 [z]</td>
+<td>76561198849920612</td>
+</tr>
+</tbody>
+</table>
+<h3 id="基本使用命令游戏中聊天框输入">基本使用命令（游戏中聊天框输入）</h3>
+<pre><code>!knife---&gt;刀
+!WS------&gt;手套
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[About]]></title>
         <id>https://smallds.github.io/about/</id>
