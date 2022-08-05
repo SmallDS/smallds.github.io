@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://smallds.github.io</id>
     <title>小沙漠Blog</title>
-    <updated>2022-07-11T09:42:45.436Z</updated>
+    <updated>2022-08-05T03:53:56.459Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://smallds.github.io"/>
     <link rel="self" href="https://smallds.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://smallds.github.io/images/avatar.png</logo>
     <icon>https://smallds.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 小沙漠Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Clahs汉化]]></title>
+        <id>https://smallds.github.io/clahs-han-hua/</id>
+        <link href="https://smallds.github.io/clahs-han-hua/">
+        </link>
+        <updated>2022-08-05T03:53:25.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="clahs汉化">Clahs汉化</h1>
+<h4 id="准备材料">准备材料：</h4>
+<ol>
+<li>Clsha本体一份</li>
+<li>Clsha汉化包一份</li>
+</ol>
+<h2 id="教程开始">教程开始</h2>
+<p>教程基于</p>
+<pre><code>https://github.com/BoyceLig/Clash_Chinese_Patch ---&gt;汉化版提供者
+https://github.com/Fndroid/clash_for_windows_pkg ---&gt;原版Clsha
+</code></pre>
+<p>原版Clsha <a href="https://github.com/Fndroid/clash_for_windows_pkg/releases/tag/0.19.25"><strong>v 0.19.25</strong></a> 下载后安装即可</p>
+<p>然后下载汉化包 <strong><a href="https://git.smallds.com/https://github.com/BoyceLig/Clash_Chinese_Patch/releases/download/0.19.25/app.7z">Clash for Windows v0.19.25 汉化补丁</a></strong> 下载后解压</p>
+<hr>
+<ol>
+<li>首先退出Clahs</li>
+<li>解压下载好的汉化包文件</li>
+<li>右击Clsha图标，找到属性--打开文件夹位置<img src="https://s2.loli.net/2022/08/05/p51SJwMFuToUacP.png" alt="img" loading="lazy"></li>
+<li>进入文件夹后打开 resources 子文件夹，将下载的补丁拖入，替换 app.asar 文件即可<img src="https://s2.loli.net/2022/08/05/ULhsSefbAImX7V8.png" alt="img" loading="lazy"></li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Typora]]></title>
         <id>https://smallds.github.io/typora/</id>
