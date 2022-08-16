@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://smallds.github.io</id>
     <title>小沙漠Blog</title>
-    <updated>2022-08-05T13:32:21.947Z</updated>
+    <updated>2022-08-16T12:45:35.343Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://smallds.github.io"/>
     <link rel="self" href="https://smallds.github.io/atom.xml"/>
@@ -10,6 +10,102 @@
     <logo>https://smallds.github.io/images/avatar.png</logo>
     <icon>https://smallds.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 小沙漠Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[TeamSpeak 3]]></title>
+        <id>https://smallds.github.io/RIo8Kq7zw/</id>
+        <link href="https://smallds.github.io/RIo8Kq7zw/">
+        </link>
+        <updated>2022-08-16T12:43:24.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="安装教程">安装教程</h1>
+<h2 id="s1-下载本体">S1 下载本体</h2>
+<p>选择对应操作系统下载后安装</p>
+<table>
+<thead>
+<tr>
+<th>Windows 64位</th>
+<th>3.5.6</th>
+<th><a href="https://teamspeak-mirror.wevg.org/releases/client/3.5.6/TeamSpeak3-Client-win64-3.5.6.exe">点击下载</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MacOS</strong></td>
+<td><strong>3.5.6</strong></td>
+<td><strong><a href="https://teamspeak-mirror.wevg.org/releases/client/3.5.6/TeamSpeak3-Client-macosx-3.5.6.dmg">点击下载</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="s2-下载中文语言包">S2 下载中文语言包</h2>
+<p>任意选择下载安装即可</p>
+<table>
+<thead>
+<tr>
+<th>原Github地址（可能会下载失败，如失败使用镜像站点）</th>
+<th></th>
+<th><a href="https://github.com/VigorousPro/TS3-Translation_zh-CN/releases/download/snapshot/Chinese_Translation_zh-CN.ts3_translation">点击下载</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>镜像地址</strong></td>
+<td></td>
+<td><strong><a href="https://git.smallds.com/https://github.com/VigorousPro/TS3-Translation_zh-CN/releases/download/snapshot/Chinese_Translation_zh-CN.ts3_translation">点击下载</a></strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="s3-连入服务器">S3 连入服务器</h2>
+<h1 id=""><a href="ts3server://s1.smallds.com"><strong>点我连入</strong></a></h1>
+<h1 id="常见问题">常见问题</h1>
+<blockquote>
+<p>以下内容的中文翻译将会尽量与上方最新版中文语言包相同</p>
+</blockquote>
+<h2 id="q1-设置感应麦">Q1 设置感应麦</h2>
+<p>点击 <code>工具(Tools)</code> ，打开 <code>设置(Options)</code> 菜单目录 ，选择 <code>音频输入(Capture)</code> 选项卡。<br>
+可以在右侧的 配置(Profile) 中看到 语音感应激活(Capture Voice Activation)选项，模式选择 <code>Volume Gate</code>。</p>
+<p>下方的滑杆代表灵敏度，您可以通过 点击 <code>开始测试(Begin test)</code> 进行测试。<br>
+一般情况下，推荐打开下方的<strong>回声抑制(Echo reduction)</strong> <strong>回声消除(Echo cancellation)</strong> 以及 <strong>高级选项(Advanced Options)</strong>，但具体请根据个人情况及设备的不同，自行判断。</p>
+<h2 id="q11-说话别人只能听到后半句-录入过多杂音">Q1.1 说话别人只能听到后半句 / 录入过多杂音</h2>
+<p>一般此情况为灵敏度配置不当导致的。<br>
+通过调节 Q1 中提到的滑杆，滑杆越往左越灵敏，不断地测试，找到适合自己的灵敏度即可解决此问题。</p>
+<h2 id="q2-使用-teamviewer-时-teamspeak-声音变小的问题">Q2 使用 TeamViewer 时 TeamSpeak 声音变小的问题</h2>
+<p>不得不说，这个问题，确实困扰了我很久，直到前几天，偶然发现了解决问题的办法</p>
+<blockquote>
+<p>2020-03-27 Windows 更新之后位置有了些许变化<br>
+首先，右键点击任务栏的<strong>声音</strong> - <strong>打开声音设置</strong></p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://i.yecdn.com/images/2020/03/27/11c45ed06c3f0f74ff913c526362f5df.png" alt="img" loading="lazy"></figure>
+<p>点击右侧的 <strong>声音控制面板</strong></p>
+<figure data-type="image" tabindex="2"><img src="https://i.yecdn.com/images/2020/03/27/b596cfe52771c9117bb33a06174d571b.png" alt="img" loading="lazy"></figure>
+<p>然后点击<strong>通信</strong>选项卡，将系统默认的&quot; <strong>将其他声音的音量减小到80%</strong> &quot; 修改为 <strong>不执行任何操作</strong>，即可完美解决声音变小的问题</p>
+<figure data-type="image" tabindex="3"><img src="https://i.yecdn.com/images/2019/01/05/537638065bc87a7102e35eb04717771b.png" alt="b7f36784197be0b2b10c328b9d5921ba.png" loading="lazy"></figure>
+<blockquote>
+<p>低版本 Windows 系统可以参考下面的部分<br>
+首先，右键点击任务栏的<strong>声音</strong> - 声音</p>
+</blockquote>
+<figure data-type="image" tabindex="4"><img src="https://i.yecdn.com/images/2019/01/05/201b8cd093ebc341cee6e9c8313ad756.png" alt="04bd256693edca3803b015a37046b434.png" loading="lazy"></figure>
+<p>然后点击<strong>通信</strong>选项卡，将系统默认的&quot;将其他声音的音量减小到80%&quot; 修改为不执行任何操作，即可完美解决声音变小的问题</p>
+<figure data-type="image" tabindex="5"><img src="https://i.yecdn.com/images/2019/01/05/537638065bc87a7102e35eb04717771b.png" alt="b7f36784197be0b2b10c328b9d5921ba.png" loading="lazy"></figure>
+<h2 id="q3-创建或编辑书签">Q3 创建或编辑书签</h2>
+<ol>
+<li><strong>打开书签</strong></li>
+</ol>
+<p>在 TeamSpeak 的左上角，单击 <code>书签(Bookmarks)</code> 菜单，然后单击 <code>管理书签(Manage Bookmarks)</code> 选项。</p>
+<figure data-type="image" tabindex="6"><img src="https://i.yecdn.com/images/2019/04/15/d817c32fcc36dd537c1f465b9818b836.png" alt="img" loading="lazy"></figure>
+<ol>
+<li><strong>添加书签</strong></li>
+</ol>
+<p>在书签窗口中，请单击 <code>新增书签</code> 或在空白处点击右键，即可<strong>新建书签</strong>。</p>
+<figure data-type="image" tabindex="7"><img src="https://i.yecdn.com/images/2019/04/15/ab297f649859015457d76268827b6759.png" alt="img" loading="lazy"></figure>
+<ol>
+<li><strong>编辑书签</strong></li>
+</ol>
+<p>单击刚刚创建的新书签或要编辑的书签。填写 <strong>书签名</strong>，<strong>服务器地址</strong>，<strong>昵称</strong>和<strong>服务器密码</strong>（如果需要）。然后单击<strong>确定</strong>即可。</p>
+<ol>
+<li><strong>快速添加书签</strong></li>
+</ol>
+<p>连接服务器后，点击 <code>书签(Bookmarks)</code> 菜单，然后单击 <code>添加到书签(Add to Bookmarks)</code> 选项即可。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Clahs汉化]]></title>
         <id>https://smallds.github.io/clahs-han-hua/</id>
